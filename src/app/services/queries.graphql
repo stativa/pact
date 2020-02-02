@@ -1,0 +1,9 @@
+
+query GetData($path: String!) {
+  item(path: $path) {
+    id
+    name
+    path
+    displayName
+  }
+}
